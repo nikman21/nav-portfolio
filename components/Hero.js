@@ -19,9 +19,7 @@ const Hero = () => {
         <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white mx-auto shadow-xl relative mb-8">
           <Image 
             src={Me} 
-            alt="Maanav Talla" 
-            layout="fill" 
-            objectFit="cover" 
+            alt="Maanav Talla"   
             className="transition-transform duration-700 ease-out hover:scale-110"
           />
         </div>
@@ -30,7 +28,7 @@ const Hero = () => {
           Engineering the Future of Mobility
         </h1>
         <p className="text-xl text-white mb-8 max-w-xl mx-auto">
-          I’m <span className="font-semibold">Maanav Talla</span>, a Junior Automotive Systems Engineering student 
+          I am <span className="font-semibold">Maanav Talla</span>, a Junior Automotive Systems Engineering student 
           passionate about electric vehicles, sustainability, and driving innovation in automotive design.
         </p>    
 

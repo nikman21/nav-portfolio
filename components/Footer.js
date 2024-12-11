@@ -1,10 +1,7 @@
-'use client';
-
 import React from 'react';
 import { FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gradient-to-r from-black to-red-900 text-white py-6">
@@ -28,7 +25,7 @@ function Footer() {
           </a>
         </div>
         <p className="text-sm">
-          Maanav Talla © {currentYear}. All rights reserved.
+          Maanav Talla © 2024. All rights reserved.
         </p>
       </div>
     </footer>
@@ -36,3 +33,5 @@ function Footer() {
 }
 
 export default Footer;
+
+
